@@ -15,3 +15,6 @@ exports.proxy = onRequest({ maxInstances: 10 }, (request, response) => {
       corsServer.emit('request', request, response);
     })
 });
+
+
+// to deploy this code onto firebase just run "npm run deploy" command from /functions folder.
